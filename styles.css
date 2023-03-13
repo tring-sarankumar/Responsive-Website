@@ -45,7 +45,6 @@ body{
 .nav__btn--primary button{
     border: none;
     background-color:  #272D37;
-    ;
     color: #ffffff;
     margin:0 1em;
     padding: 0.7rem;
@@ -67,6 +66,7 @@ body{
 }
 
 .content{
+
     
     background-color: #121212;
 
@@ -92,7 +92,7 @@ body{
     width: 400px;
     text-align: center;
     color: #ffffff;   
-    /* #864cb3 */
+    
 }
 
 .content__img img{
@@ -160,10 +160,14 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #272D37;
-    /* text-align: center; */
-    padding: 1rem;
-    /* margin: 20px 40px; */
+    padding: 1rem; 
+    min-width: 504px;
+   
+}
+.footer h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .footer span {
     color:#437EF7 
@@ -201,9 +205,6 @@ body{
     .section h2{
         line-height: 100%;
         
-    }
-    .footer{
-        padding-left: 7rem;
     }
 
 }
